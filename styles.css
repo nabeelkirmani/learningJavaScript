@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(70, 15%, 15%);
+    color: hsl(60, 10%, 90%);
+  }
+  
+  .heading1 {
+    color: hsl(100, 50%, 50%);
+    text-align: center;
+  }
+  
+  .heading2 {
+    color: hsl(200, 50%, 50%);
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+    padding: 20px 120px 20px 20px;
+    border-radius: 5px;
+    background-color: hsl(50, 10%, 20%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+  }
+  
+  .codebox {
+    background-color: hsl(0, 0%, 30%);
+    border: 1px solid hsl(50, 30%, 30%);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    overflow-x: auto;
+    box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.5);
+    min-height: 500px;
+  }
+  
+  .codebox code {
+    font-family: 'Fira Code', 'Consolas', monospace;
+    color: hsl(50, 70%, 70%);
+    display: block;
+    font-size: large;
+    line-height: 1.5;
+    word-wrap: break-word;
+  }
+  
+  .p {
+    margin-top: 20px 0;
+  }
