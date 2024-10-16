@@ -1,4 +1,49 @@
 body {
+  font-size: 30px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.button {
+  display: block;
+  font-size: 30px;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border: solid 3px black;
+  background: none;
+  color: black;
+}
+
+.div2,
+li,
+.div1 {
+  display: block;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  width: 100%S;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid;
+}
+
+.btn-testa {
+  display: block;
+  font-size: 30px;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border: solid 3px black;
+  background: none;
+  color: black;
+}
+/* body {
     font-family: 'Segoe UI', Verdana, sans-serif;
     line-height: 1.5;
     margin: 0;
@@ -47,4 +92,4 @@ body {
   
   .p {
     margin-top: 20px 0;
-  }
+  } */
