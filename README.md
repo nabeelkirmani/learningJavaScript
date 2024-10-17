@@ -302,3 +302,7 @@ myCar.displayCarInfo(); // Output: 2020 Toyota Corolla
 - **Method Addition**: `Car.prototype.displayCarInfo` is a method specific to `Car`.
 
 This demonstrates how `Car` inherits both properties and methods from `Vehicle`.
+
+
+## DOM Manipulation
+https://www.youtube.com/watch?v=5fb2aPlgoys

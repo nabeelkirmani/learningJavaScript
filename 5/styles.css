@@ -1,0 +1,107 @@
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: url(../img/abstract-blur-defocused-bookshelf-library.webp)
+    no-repeat center center/ cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
+}
+
+#add-task-container {
+  background-color: cornsilk;
+  width: 350px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 5;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#add-task {
+  flex: 1;
+  font-size: 1.2rem;
+  padding: 5px;
+  background-color: cornsilk;
+  color: teal;
+  border: teal solid 2px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+#add-task:hover {
+  background-color: teal;
+  color: cornsilk;
+  cursor: pointer;
+}
+
+/* Styling for tasks which get added to lists */
+.task {
+  width: 100%;
+  height: auto;
+  background-color: cornsilk;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task li {
+  list-style: none;
+  flex: 4;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.task button {
+  flex: 1;
+  border-radius: 20px;
+  background-color: cornsilk;
+  cursor: pointer;
+}
+
+.task .checkTask {
+  color:slateblue;
+  margin-right: 5px;
+  border: solid 2px slateblue;
+  font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+  color: cornsilk;
+  background-color: slateblue;
+}
+
+.task .deleteTask {
+  color: crimson;
+  margin-left: 5px;
+  border: solid 2px crimson;
+  font-size: 1.3rem;
+}
+
+.task .deleteTask:hover {
+  color: cornsilk;
+  background-color: crimson;
+}
+

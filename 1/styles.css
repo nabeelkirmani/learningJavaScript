@@ -1,0 +1,71 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex; /* to center everything */
+  justify-content: center; /* works with display: flex */
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(../img/abstract-blur-defocused-bookshelf-library.webp) no-repeat
+    center center/ cover;
+}
+
+.container {
+  width: 550px;
+  height: 450px;
+}
+
+.header {
+  font-size: 1.5rem;
+  border: solid 2px white;
+  color: whitesmoke;
+  background-color: #5f6769;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.main-content {
+  background-color: seashell;
+  border: solid 2px white;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  padding: 50px 40px;
+  box-shadow: 0 0 15px;
+}
+
+.main-content .text-area {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-family: 'Roboto', cursive;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.main-content .person {
+  font-size: 1.5rem;
+  color: crimson;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background-color: grey;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.button-area button:active {
+  background-color: black;
+}

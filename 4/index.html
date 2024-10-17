@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
       rel="stylesheet"
     />
     <!-- FontAwesome Link -->
@@ -28,25 +28,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Project 1</title>
+    <title>Project 4</title>
   </head>
   <body>
-    <!-- Project 1: Quote Generator -->
+    <!-- Project 4: Stop Watch -->
     <div class="container">
-      <div class="header">
-        <h2>JavaScript Quote Generator</h2>
-      </div>
-      <div class="main-content">
-        <div class="text-area">
-          <span class="quote">Click the Button below</span>
-        </div>
-        <div class="person"></div>
-        <div class="button-area">
-          <button id="new-quote">New Quote</button>
-        </div>
+      <div id="timer">00:00:00:00</div>
+      <div class="buttons">
+        <button id="startStopBtn">
+          <i class="fa-solid fa-play" id="play"></i>
+        </button>
+        <button id="resetBtn">
+          <i class="fa-solid fa-arrow-rotate-left" id="reset"></i>
+        </button>
       </div>
     </div>
     <!-- Scripts -->
-    <script type="text/javascript" src="project-1.js"></script>
+    <script type="text/javascript" src="project-4.js"></script>
   </body>
 </html>
